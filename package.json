@@ -1,0 +1,24 @@
+{
+  "name": "simpsons-newspaper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "parcel serve src/index.html --port 8000",
+    "build": "parcel build src/index.html -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "postcss-clean": "^1.2.2",
+    "postcss-cli": "^7.1.2",
+    "postcss-nesting": "^7.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "stylelint": "^13.12.0",
+    "stylelint-config-standard": "^21.0.0"
+  },
+  "dependencies": {}
+}
